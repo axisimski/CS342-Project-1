@@ -1,0 +1,58 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Random;
+
+//Alexander Simeonovski
+//asimeono
+
+
+public class Question {
+
+	private String q=" ";
+	private double points;
+	private ArrayList<Answer> anslist=new ArrayList<Answer>();
+	
+	
+	Question(String x) {	
+		q=x;
+		points=0;
+	}
+	
+	void AddAnswer(Answer a){		
+		anslist.add(a);
+	}
+	
+	
+	void print(){		
+		
+		System.out.printf("%s", q);
+		System.out.printf("\n");
+	
+		 for (int i = 0; i < anslist.size(); i++){
+			 anslist.get(i).print();;
+		 } 
+	}
+	
+	
+	void selectAnswer( int position ) {		
+		anslist.get(position-1).setSelected(true);
+		points=anslist.get(position-1).getValue();
+	}
+
+	
+	void unselectAnswer( int position ) {		
+		anslist.get(position).setSelected(false);
+		points=0;
+	}
+	
+	
+	double getValue() {
+		return points;
+	}
+	
+	
+	void reorderAnswers() {
+		Collections.shuffle(anslist, new Random());
+	}
+
+}

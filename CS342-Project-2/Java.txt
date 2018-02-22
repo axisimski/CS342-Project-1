@@ -1,0 +1,47 @@
+	void setSelected(Boolean chosen ) {		
+		setChecked(chosen);
+	}
+	
+	
+	void setValue(double unselected, double selected){    	
+		
+    	if(setChecked(true)) {    		
+    		value=selected;    		
+    	}    	
+    	else if(setChecked(false)) {
+    		value=unselected;
+    	}  		   
+	}
+	
+	
+	double getValue() {		
+		  return value;
+	}
+	
+	
+	public Boolean getChecked() {
+		return checked;
+	}
+	
+	
+	public Boolean setChecked(Boolean checked) {
+		this.checked = checked;
+		return checked;
+	}	
+ 	 
+	
+	public String getA() {
+		return a;
+	}
+	
+	
+	public void setA(String a) {
+		this.a = a;
+	}
+
+MCAnswer(String n){		
+		setA(n); 
+		setChecked(false); //Default is unselected
+		value=0; //Default value for questions is 0 (If unselected)
+	}
+	
