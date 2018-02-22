@@ -1,4 +1,5 @@
 
+
 import java.util.Collections;
 import java.util.Scanner;
 
@@ -75,8 +76,7 @@ public class MCSAQuestion extends MCQuestion {
 		
 		int stdAns = input.nextInt();
 		
-		studentAnswer = answers.get(stdAns-1);
-		
+		studentAnswer = answers.get(stdAns-1);		
  		
 	 	return studentAnswer;
 	 	

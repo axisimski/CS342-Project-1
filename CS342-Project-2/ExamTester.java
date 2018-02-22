@@ -13,7 +13,7 @@ public class ExamTester {
 		
 		//Create an exam with at least two kinds of questions (2 SA and 2 MCSA Questions)
 		
-		Exam ex1 = new Exam("\nFor the first 2 questions select a correct answer for 5 points 1 for a, 2 for b...5 for d.\\n\\\"\\r\\n\" + \r\n" + 
+		Exam ex1 = new Exam("\nFor the first 2 questions select a correct answer for 5 points 1 for a, 2 for b...5 for d.\n\n"  + 
 				"For the second two type in your answers\n\n\n");
 
 		
@@ -53,18 +53,26 @@ public class ExamTester {
  	 	//Step 2 print the exam
  	 	ex1.print();
  		
+ 		System.out.println("\nReordering Questions and Multiple choice answers!\n");
+ 	 	
+ 		//Reorder the questions
+ 		ex1.reorderQuestions(); 
+ 		
+ 		//(-999 to reorder all MCQuestion answers
+ 		ex1.reorderMCAnswers(-999);
+ 		
+ 		
+ 		//Print the exam again
+ 		ex1.print();
+
  			
  		//Get Student Answers
- 		q1.getAnswerFromStudent();
- 		q2.getAnswerFromStudent();
- 		q3.getAnswerFromStudent();
- 		q4.getAnswerFromStudent();
- 		
- 		//Reorder the questions
- 		ex1.reorderQuestions();
- 		ex1.reorderMCAnswers(-1);
- 		
- 		ex1.print();
+ 		ex1.getAnswerFromStudent(0);
+ 		ex1.getAnswerFromStudent(1);
+ 		ex1.getAnswerFromStudent(2);
+ 		ex1.getAnswerFromStudent(3);
+ 	
+ 	
  		
  
  		//Grade the exam
@@ -73,25 +81,7 @@ public class ExamTester {
 		
 		//Print the value for each question. Since no Exam.getQuestion(i) is permitted it is done manually
 			 
-		double val= q1.getValue();				
-		System.out.println("\n-------------------------------------");
-		System.out.printf("For Question %d you got %f", 1, val);
-		System.out.println("\n-------------------------------------");
-				
-		double val2= q2.getValue();				
-		System.out.println("\n-------------------------------------");
-		System.out.printf("For Question %d you got %f", 2, val2);
-		System.out.println("\n-------------------------------------");
-				
-		double val3= q3.getValue();				
-		System.out.println("\n-------------------------------------");
-		System.out.printf("For Question %d you got %f", 3, val3);
-		System.out.println("\n-------------------------------------");
-				
-		double val4= q4.getValue();				
-		System.out.println("\n-------------------------------------");
-		System.out.printf("For Question %d you got %f", 4, val4);
-		System.out.println("\n-------------------------------------");
+		ex1.reportQuestionValues();
 			 
 	}
 }

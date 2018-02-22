@@ -1,5 +1,4 @@
 
-
 public class MCSAAnswer extends MCAnswer {
 	
 	//Constructor

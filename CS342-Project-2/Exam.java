@@ -13,7 +13,7 @@ public class Exam {
 	//Constructor//prints the my name, netid and the header.
 	public Exam(String text) {
 		
-		System.out.printf("Alexander Simeonovski\nasimeo2\n%s...\n", text);
+		System.out.printf("Alexander Simeonovski\nasimeono\n");
 		this.text=text;
 		questions = new ArrayList<Question>();
 	}
@@ -61,7 +61,7 @@ public class Exam {
 				((MCQuestion) questions.get(position)).reorderAnswers();
 			} 
 			
-			//If not a  MCuestion
+			//If not a  MCQuestion
 			else 
 				System.out.println("Not a  Multiple Choice Question\n");
 			
@@ -104,16 +104,34 @@ public class Exam {
 	
 		questions.get(position).getAnswerFromStudent();
 	}
+	
 	//--------------------------------------------------------------------------------------------------
 
+	//Report the values for individual questions
+	public void reportQuestionValues() {
+		
+		int i = 0;
+		
+		for (Question examQuestion : questions) {
+			System.out.printf(
+					"For Question %d you got %f points\n\n", i+1, examQuestion.getValue());
+			i++;
+		}
+		
+	}
+	
+	//--------------------------------------------------------------------------------------------------
 
+	
 	//Getter for text
 	public String getText() {
 		return text;
 	}
 	
-	//Setter for text
+	//--------------------------------------------------------------------------------------------------
 
+	
+	//Setter for text
 	public void setText(String text) {
 		this.text = text;
 	}

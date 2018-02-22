@@ -1,4 +1,5 @@
 
+
 import java.util.Scanner;
 public class SAQuestion extends Question {
 	public SAQuestion(String text, double maxValue) {

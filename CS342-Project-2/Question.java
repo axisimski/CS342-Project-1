@@ -1,5 +1,6 @@
 
 
+
 //Abstract class which serves as a blueprint for its child classes
 
 public abstract class Question {
