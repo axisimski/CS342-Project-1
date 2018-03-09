@@ -1,0 +1,16 @@
+C:\Users\Alex\Desktop\DivvyDailyRides\DivvyDailyRides\bin\Debug\netcoreapp2.0\DivvyDailyRides.deps.json
+C:\Users\Alex\Desktop\DivvyDailyRides\DivvyDailyRides\bin\Debug\netcoreapp2.0\DivvyDailyRides.runtimeconfig.json
+C:\Users\Alex\Desktop\DivvyDailyRides\DivvyDailyRides\bin\Debug\netcoreapp2.0\DivvyDailyRides.runtimeconfig.dev.json
+C:\Users\Alex\Desktop\DivvyDailyRides\DivvyDailyRides\bin\Debug\netcoreapp2.0\DivvyDailyRides.dll
+C:\Users\Alex\Desktop\DivvyDailyRides\DivvyDailyRides\bin\Debug\netcoreapp2.0\DivvyDailyRides.pdb
+C:\Users\Alex\Desktop\DivvyDailyRides\DivvyDailyRides\obj\Debug\netcoreapp2.0\DivvyDailyRides.fsprojResolveAssemblyReference.cache
+C:\Users\Alex\Desktop\DivvyDailyRides\DivvyDailyRides\obj\Debug\netcoreapp2.0\DivvyDailyRides.dll
+C:\Users\Alex\Desktop\DivvyDailyRides\DivvyDailyRides\obj\Debug\netcoreapp2.0\DivvyDailyRides.pdb
+C:\Users\Alex\Desktop\0ArbeitsPlatz1\DivvyDailyRides\DivvyDailyRides\bin\Debug\netcoreapp2.0\DivvyDailyRides.deps.json
+C:\Users\Alex\Desktop\0ArbeitsPlatz1\DivvyDailyRides\DivvyDailyRides\bin\Debug\netcoreapp2.0\DivvyDailyRides.runtimeconfig.json
+C:\Users\Alex\Desktop\0ArbeitsPlatz1\DivvyDailyRides\DivvyDailyRides\bin\Debug\netcoreapp2.0\DivvyDailyRides.runtimeconfig.dev.json
+C:\Users\Alex\Desktop\0ArbeitsPlatz1\DivvyDailyRides\DivvyDailyRides\bin\Debug\netcoreapp2.0\DivvyDailyRides.dll
+C:\Users\Alex\Desktop\0ArbeitsPlatz1\DivvyDailyRides\DivvyDailyRides\bin\Debug\netcoreapp2.0\DivvyDailyRides.pdb
+C:\Users\Alex\Desktop\0ArbeitsPlatz1\DivvyDailyRides\DivvyDailyRides\obj\Debug\netcoreapp2.0\DivvyDailyRides.fsprojResolveAssemblyReference.cache
+C:\Users\Alex\Desktop\0ArbeitsPlatz1\DivvyDailyRides\DivvyDailyRides\obj\Debug\netcoreapp2.0\DivvyDailyRides.dll
+C:\Users\Alex\Desktop\0ArbeitsPlatz1\DivvyDailyRides\DivvyDailyRides\obj\Debug\netcoreapp2.0\DivvyDailyRides.pdb
